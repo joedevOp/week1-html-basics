@@ -6,4 +6,4 @@ I learned:
 - Linking pages together
 - Basic Git & GitHub workflow
 
-**Live site:** [Add your GitHub Pages or Netlify link here]
+**Live site:** [https://joedevOp.github.io/week1-html-basics]
