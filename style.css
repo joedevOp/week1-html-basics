@@ -11,6 +11,7 @@ body {
     background-color:  var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
+    text-align: center;
 }
 
 header, footer {
@@ -33,12 +34,36 @@ a {
     text-decoration: none;
 }
 
-
-
 main {
     max-width: 800px;
     margin: 2em auto;
     padding: 1em;
+}
+
+section {
+    margin: 0.5rem;
+    padding: 0.3rem;
+}
+
+figure.profile {
+
+    text-align: center;
+    margin: 1em auto;
+    max-width: 250px;
+}
+
+figure.profile img {
+
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+figure.profile figcaption {
+
+    font-size: 0.9em;
+    color: var(--text-color);
+    margin-top: 0.5em;
 }
 
 /* Responsove design for screen width */
@@ -51,6 +76,8 @@ main {
         display: block;
         margin: 10px 0;
     }
+
+    
 }
 
 /* Theme preference (light/dark) */
